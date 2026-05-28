@@ -1,0 +1,17 @@
+{
+  "name": "playwright-bdd-framework",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js",
+    "smoke": "cucumber-js --tags @smoke",
+    "parallel": "cucumber-js --parallel 4"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.0.0",
+    "multiple-cucumber-html-reporter": "^3.5.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
